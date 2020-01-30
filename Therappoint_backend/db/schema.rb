@@ -30,11 +30,10 @@ ActiveRecord::Schema.define(version: 2020_01_30_155454) do
     t.string "username"
     t.string "address"
     t.string "email"
-    t.integer "phone_number"
+    t.string "phone_number"
     t.string "img_url"
     t.string "specialty"
     t.boolean "board_certified"
-    t.boolean "patient"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
