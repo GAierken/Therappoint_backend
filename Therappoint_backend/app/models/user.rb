@@ -1,7 +1,9 @@
 class User < ApplicationRecord
-    has_many :providers, through: :prov_appoints, source: :provider 
-    has_many :prov_appoint, foreign_key: :client_id, class_name: "User", dependent: :destroy
+   
+     has_many :provider_appointments, foreign_key: :client_id, class_name: 'Appointment'
+     has_many :providers, through: :provider_appointments
 
-    has_many :clients, through: :cli_appoints, source: :client 
-    has_many :cli_appoints, foreign_key: :provider_id, class_name: "User", dependent: :destroy
+     has_many :client_appointments, foreign_key: :provider_id, class_name: "Appointment"
+     has_many :clients, through: :client_appointments
+
 end

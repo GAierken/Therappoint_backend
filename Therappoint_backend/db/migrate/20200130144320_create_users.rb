@@ -7,12 +7,11 @@ class CreateUsers < ActiveRecord::Migration[6.0]
       t.string :username
       t.string :address
       t.string :email
-      t.integer :phone_number
+      t.string :phone_number
       t.string :img_url
       t.string :specialty
       t.boolean :board_certified
-      t.boolean :patient
-
+     
       t.timestamps
     end
   end
