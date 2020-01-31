@@ -16,7 +16,7 @@ clients=[
     { 
       first_name: "Gulgina",
       last_name: "Arkin",
-      password_digest: "1234",
+      password: "1234",
       username: "gena",
       address: "81 Prospect Street, Brooklyn NY",
       email: "gena@123.com",
@@ -27,7 +27,7 @@ clients=[
     { 
       first_name: "Kayser",
       last_name: "Mahmut",
-      password_digest: "1234",
+      password: "1234",
       username: "kayser",
       address: "7101 13th Ave, Brooklyn NY",
       email: "kayser@123.com",
@@ -41,7 +41,7 @@ providers=[
     {
       first_name: "Dariusz",
       last_name: "Jarzabkowski",
-      password_digest: "1234",
+      password: "1234",
       username: "dariusz",
       email: "da@123.com",
       phone_number: "1112223333",
@@ -53,7 +53,7 @@ providers=[
     {
         first_name: "Michael",
         last_name: "Lasak",
-        password_digest: "1234",
+        password: "1234",
         username: "michael",
         email: "mi@123.com",
         phone_number: "222333444",
@@ -65,7 +65,7 @@ providers=[
       {
         first_name: "Yamalis",
         last_name: "Diaz",
-        password_digest: "1234",
+        password: "1234",
         username: "yamalis",
         email: "ya@123.com",
         phone_number: "3334445555",
@@ -77,7 +77,7 @@ providers=[
       {
         first_name: "Dylann",
         last_name: "Gold",
-        password_digest: "1234",
+        password: "1234",
         username: "dylann",
         email: "dy@123.com",
         phone_number: "3334445555",
