@@ -28,13 +28,17 @@ class UsersController < ApplicationController
         
     end 
 
-    # def update
-        
-    #     user=User.find(params[:id])
-    #     user.update(email: params[:email])
+    def update
+      
+        user=User.find(params[:id])
+        user.update(update_params)
 
-    #     render json: user
-    # end 
+        if user.save 
+        render json: user
+        else 
+        render json:{errors: user.errors.full_messages}, status: :unprocessable_entity
+        end 
+    end 
 
     def destroy
         
@@ -50,4 +54,7 @@ class UsersController < ApplicationController
         params.permit(:username, :password, :email)
     end 
 
+    def update_params
+        params.permit(:username, :first_name, :last_name, :address, :email, :phone_number, :img_url, :specialty, :board_certified)
+    end 
 end
