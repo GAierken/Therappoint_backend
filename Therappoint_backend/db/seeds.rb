@@ -92,7 +92,7 @@ User.create!(providers)
 
 puts "Creating Appointments"
 Appointment.create!(client: User.first, provider: User.last, appoint_date: "02/23/2020")
-Appointment.create!(client: User.first, provider: User.second, appoint_date: "03/28/2020")
+Appointment.create!(client: User.second, provider: User.last, appoint_date: "03/28/2020")
 # Appointment.create!(client: User.find_by(client_id: 2), provider: User.find_by(provider_id: 3))
 # Appointment.create!(client: User.find_by(client_id: 2), provider: User.find_by(provider_id: 4))
 
