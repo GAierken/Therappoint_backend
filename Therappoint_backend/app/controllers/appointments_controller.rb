@@ -10,6 +10,7 @@ class AppointmentsController < ApplicationController
      end 
 
      def create
+
          appointment = Appointment.create(appointment_params)
          render json: appointment
  
