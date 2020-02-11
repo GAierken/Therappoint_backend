@@ -51,7 +51,7 @@ class UsersController < ApplicationController
     private
 
     def user_params
-        params.permit(:username, :password, :email)
+        params.permit(:username, :password, :email, :img_url)
     end 
 
     def update_params
