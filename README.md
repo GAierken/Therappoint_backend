@@ -6,8 +6,8 @@ Therappoint is an appointment-scheduling app where clients or therapists are abl
 
 ## Prerequisites
 Before you continue, ensure you have met the following requirements:
-* You have installed the latest version of Ruby
-* You have a basic understanding of Ruby on Rails
+* You have installed the latest version of Ruby and PostgreSQL
+* You have a basic understanding of Ruby on Rails and self-joins
 * You have installed Therappoint frontend: https://github.com/GAierken/Therappoint_frontend
 
 ## Installation 
