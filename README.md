@@ -19,9 +19,10 @@ bundle install && rails s
 
 ## Tech Used
 |      |                         |           |
-| ---- |:-----------------------:| ---------:|
-| Ruby | Rails                   | BCrypt    |
-| JWT  | active_model_serializers| .dotenv   |
+| --------- |:-----------------------:| ---------:|
+| Ruby      | Rails                   | BCrypt    |
+| JWT       | active_model_serializers| .dotenv   |
+|PostgreSQL |                         |           |
 
 ## Project Demo
 [Demo Video](https://www.youtube.com/watch?v=QZEsGHZpaoo&feature=youtu.be)
