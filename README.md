@@ -6,23 +6,22 @@ Therappoint is an appointment-scheduling app where clients or therapists are abl
 
 ## Prerequisites
 Before you continue, ensure you have met the following requirements:
-* You have installed the latest version of JavaScript
-* You have a basic understanding of React.js/ Redux library
-* You have installed Therappoint backend: https://github.com/GAierken/Therappoint_backend
+* You have installed the latest version of Ruby
+* You have a basic understanding of Ruby on Rails
+* You have installed Therappoint frontend: https://github.com/GAierken/Therappoint_frontend
 
 ## Installation 
-Use npm to install and start
+Use bundle to install and start
 
 ```bash
-npm install && npm start
+bundle install && rails s
 ```
 
 ## Tech Used
-|               |            |           |
-| ------------- |:----------:| ---------:|
-| React         | Redux      | Thunk     |
-| Google Map API| Geocode    | Datepicker|
-| Sweetalert    | Semantic UI| .dotenv   |
+|      |                         |           |
+| ---- |:-----------------------:| ---------:|
+| Ruby | Rails                   | BCrypt    |
+| JWT  | active_model_serializers| .dotenv   |
 
 ## Project Demo
 [Demo Video](https://www.youtube.com/watch?v=QZEsGHZpaoo&feature=youtu.be)
