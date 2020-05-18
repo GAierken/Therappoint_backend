@@ -1,5 +1,5 @@
 
-![alt text](https://github.com/GAierken/Therappoint_frontend/raw/master/src/logo.ico "Therappoint")
+![alt text](https://github.com/GAierken/Therappoint_frontend/raw/master/src/logo.png "Therappoint")
 
 ## Introduction
 Therappoint is an appointment-scheduling app where clients or therapists are able to schedule, reschedule and delete appointments. 
