@@ -27,5 +27,3 @@ bundle install && rails s
 ## Project Demo
 [Demo Video](https://www.youtube.com/watch?v=QZEsGHZpaoo&feature=youtu.be)
 
-
-![alt text](https://github.com/GAierken/Therappoint_frontend/raw/master/Therappoint.gif "Therappoint")
